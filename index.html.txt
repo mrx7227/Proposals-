@@ -1,0 +1,11 @@
+For Ani ❤️ body { margin: 0; font-family: Arial, sans-serif; height: 100vh; background: linear-gradient(135deg, #ff9a9e, #fad0c4); display: flex; justify-content: center; align-items: center; color: #fff; } <pre><code>.box { background: rgba(255, 255, 255, 0.2); border-radius: 16px; padding: 30px; max-width: 380px; text-align: center; box-shadow: 0 15px 30px rgba(0,0,0,0.2); } h1 { margin-bottom: 10px; font-size: 2em; } p { font-size: 1.1em; line-height: 1.6; } .buttons { margin-top: 25px; } button { padding: 10px 22px; font-size: 1em; border: none; border-radius: 25px; cursor: pointer; margin: 8px; } #yesBtn { background: #ffffff; color: #ff4f7a; } #noBtn { background: transparent; border: 2px solid #fff; color: #fff; position: relative; } #message { margin-top: 20px; font-size: 1.4em; display: none; } </code></pre> 
+
+Ani ❤️
+
+You make my days better just by being in them. I like you more than words can explain. 
+
+So I just want to ask you one thing. 
+
+<h2>Will you be my girlfriend?</h2> <div class="buttons"> <button id="yesBtn" onclick="sayYes()">Yes 💖</button> <button id="noBtn" onmouseover="moveNo()">No 🙈</button> </div> <div id="message">Yay! You just made me the happiest person 😍💖</div> 
+
+function sayYes() { document.getElementById('message').style.display = 'block'; } function moveNo() { const btn = document.getElementById('noBtn'); const x = Math.random() * 200 - 100; const y = Math.random() * 200 - 100; btn.style.transform = `translate(${x}px, ${y}px)`; } 
